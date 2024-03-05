@@ -11,3 +11,6 @@ mixtral:
 
 gemma:
 	cargo run --release --bin simple -- --n-len 1024 "what is rust lang?" hf-model lmstudio-ai/gemma-2b-it-GGUF  gemma-2b-it-q4_k_m.gguf
+
+llama:
+	cargo run --release --bin simple -- --n-len 1024 "what is rust lang?" hf-model TheBloke/Llama-2-13B-chat-GGUF   llama-2-13b-chat.Q4_K_M.gguf
